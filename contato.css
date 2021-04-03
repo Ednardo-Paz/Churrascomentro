@@ -1,0 +1,19 @@
+.cont-form{
+    position: absolute;
+    width: 310px;
+    left: 53%;
+    top: 19%; 
+    background-color:rgba(173, 173, 173, 0.616);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px black;
+}
+#texth1{
+    padding-bottom: 70PX;
+    font-size: 27PX; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}

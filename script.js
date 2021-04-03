@@ -38,9 +38,9 @@ function calcular(){
     let qntTotalBebida = bebidaPP(duracao) * homem + ( bebidaPP(duracao) / 2 * criancas);
 
 
-    res.innerHTML = `<p> <img class="imgicon" src="/imagens/icon-carne.png" width="50"> ${qntTotalCarne / 1000} Kg de carne.</p>`
-    res.innerHTML += `<p> <img class="imgicon" src="/imagens/lata-icon.png" width="40">${ Math.ceil(qntTotalCerveja / 355)} Latas de Cerveja. </p>`
-    res.innerHTML += `<p> <img class="imgicon" src="/imagens/icon-refri.png" width="50">${ Math.ceil(qntTotalBebida / 2000)} Pet's de bebidas. </p>`
+    res.innerHTML = `<p> <img class="imgicon" src="/imagens/icon-carne.png" width="40"> ${qntTotalCarne / 1000} Kg de carne.</p>`
+    res.innerHTML += `<p> <img class="imgicon" src="/imagens/lata-icon.png" width="30">${ Math.ceil(qntTotalCerveja / 355)} Latas de Cerveja. </p>`
+    res.innerHTML += `<p> <img class="imgicon" src="/imagens/icon-refri.png" width="35">${ Math.ceil(qntTotalBebida / 2000)} Pet's de bebidas. </p>`
   
 }
 

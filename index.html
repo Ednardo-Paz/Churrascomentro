@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header>
+    <div class="menu">
+    
+    </div>
+
     <div class="titulo">
+        <div class="menu">
+           <div class="inicio"> Início</div>
+           <a href="contato.html"> <div class="inicio"> Contato</div></a>
+        </div>
     <img class=" im" src="/imagens/banner-churrascometro-v3.png" alt="" width="450">
     </div>
 </header>
@@ -18,12 +26,12 @@
 <body>
 
     <div class="container">
-        <h1>Quer saber a quantidade que vai gastar em seu churrasco?</h1>
+        <h1 id="textquant">Quer saber a quantidade que vai gastar em seu churrasco?</h1>
         <div id="forme">
-            <img id="form" src="/imagens/ct1t.png" width="150">
-            <input type="number" name="mulher" id="mulher" placeholder="Mulher">
-            <input type="number" name="homem" id="homem" placeholder="Homem">
-            <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+            <img id="form" src="/imagens/ct1t.png" width="140">
+            <input type="number" name="mulher" id="mulher" placeholder="(N) de Mulher">
+            <input type="number" name="homem" id="homem" placeholder="(N) de Homem">
+            <input type="number" name="criancas" id="criancas" placeholder="(N) de Crianças">
             <input type="number" name="duracao" id="duracao" placeholder="Duração (h)">
             <button onclick="calcular()">Calcular</button>
             
